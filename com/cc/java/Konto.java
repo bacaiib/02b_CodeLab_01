@@ -4,6 +4,26 @@ public class Konto {
 
     private int kontoStand;
 
+    public Konto(int kontoStand) {
+        this.kontoStand = kontoStand;
+    }
+
+    public int getKontostand(){
+        return kontoStand;
+    }
+
+    public void setKontostand(int kontoStand){
+        this.kontoStand = kontoStand;
+
+    }
+
+}
+
+
+
+
+
+
     // public Konto(){
     //     this.kontoStand = 1000;
     // }
@@ -24,17 +44,4 @@ public class Konto {
     //     this.kontoStand;
     // }
     
-    public Konto(int kontoStand) {
-        this.kontoStand = kontoStand;
-    }
 
-    public int getKontostand(){
-        return kontoStand;
-    }
-
-    public void setKontostand(int kontoStand){
-        this.kontoStand = kontoStand;
-
-    }
-
-}
